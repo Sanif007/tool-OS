@@ -26,7 +26,7 @@ print(" 13. Centos \033[0m ")
 op = input("Choose your desired O.S : ")
 if op == "1" :
    print("\033[91m Installing kali... \033[0m")
-   os.system("cd ")
+   os.system("cd")
    time.sleep(1.5)
    os.system("pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Kali/kali.sh && bash kali.sh")
 elif op == "2" :
@@ -61,7 +61,7 @@ elif op == "7" :
    os.system("pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/openSUSE/Tumbleweed/opensuse-tumbleweed.sh && bash opensuse-tumbleweed.sh")
 elif op == "8" :
    print("\033[91m Installing black arch... \033[0m")
-   os.system("cd)
+   os.system("cd")
    time.sleep(1.5)
    os.system("pacman-key --init && pacman-key --populate archlinuxarm && pacman -Sy --noconfirm curl && curl -O https://blackarch.org/strap.sh && chmod +x strap.sh && ./strap.sh")
 elif op == "9" :
