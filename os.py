@@ -40,7 +40,7 @@ elif op == "3" :
    time.sleep(1.5)
    os.system("apt install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Arch/armhf/arch.sh && bash arch.sh ")
 elif op == "4" :
-   print("\033[91m Installing Arch... \033[0m")
+   print("\033[91m Installing Nethunter... \033[0m")
    os.system("cd")
    time.sleep(1.5)
    os.system("apt install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Nethunter/nethunter.sh && bash nethunter.sh")
