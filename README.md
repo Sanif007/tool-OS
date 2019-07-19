@@ -14,4 +14,3 @@ insta : https://instagram.com/indian_hacker_ninja or https://instagram.com/haoi_
 twitter : https://twitter.com/NinjaHydra1
 youtube : https://bit.ly/2um6cLb 
 
-![]( )
