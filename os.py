@@ -1,7 +1,7 @@
 import time, datetime, os, sys 
 x = datetime.datetime.now()
 os.system("clear")
-print("Tool started at\033[91;107m %s \033[0m " %x.strftime("%X"))
+print("Tool started at \033[91;107m %s \033[0m " %x.strftime("%X"))
 time.sleep(3)
 print()
 os.system("toilet -fmono12 -F gay tool-OS ")
